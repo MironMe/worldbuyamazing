@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WorldBuyAmazing</title>
+    <meta
+      name="description"
+      content="WorldBuyAmazing brings together authentic finds from trusted retailers in a retro-inspired shopping experience."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">W</div>
+          <div>
+            <p class="brand-name">WORLDBUYAMAZING</p>
+            <p class="brand-tag">retro marketplace</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#featured">Featured</a>
+          <a href="#retailers">Retailers</a>
+          <a href="#how">How it works</a>
+        </nav>
+
+        <button class="cta-button small">Start shopping</button>
+      </header>
+
+      <main>
+        <section class="hero panel">
+          <div class="hero-copy">
+            <p class="eyebrow">Authentic finds • trusted sellers • retro style</p>
+            <h1>Shop smarter. Browse the classics.</h1>
+            <p class="hero-text">
+              Discover genuine products from multiple retailers in one nostalgic,
+              easy-to-browse marketplace made for modern shoppers who love the vibe.
+            </p>
+
+            <div class="search-box">
+              <input
+                id="searchInput"
+                type="text"
+                placeholder="Search for products, brands, or categories..."
+                aria-label="Search for products"
+              />
+              <button id="searchButton" type="button">Search</button>
+            </div>
+
+            <div class="chip-row">
+              <span>New arrivals</span>
+              <span>Collector picks</span>
+              <span>Retro tech</span>
+              <span>Vintage fashion</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="display-box">
+              <div class="display-header">
+                <span>Live</span>
+                <span>12:45</span>
+              </div>
+              <div class="display-cards">
+                <div class="mini-card red">
+                  <span class="mini-emoji">🎧</span>
+                  <strong>Audio</strong>
+                  <small>Collector set</small>
+                </div>
+                <div class="mini-card yellow">
+                  <span class="mini-emoji">📷</span>
+                  <strong>Camera</strong>
+                  <small>Limited run</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats-row">
+          <div class="stat-box">
+            <strong>1.2K+</strong>
+            <span>Products</span>
+          </div>
+          <div class="stat-box">
+            <strong>32</strong>
+            <span>Retailers</span>
+          </div>
+          <div class="stat-box">
+            <strong>4.9/5</strong>
+            <span>Rating</span>
+          </div>
+          <div class="stat-box">
+            <strong>24/7</strong>
+            <span>Updated</span>
+          </div>
+        </section>
+
+        <section id="featured" class="panel products-panel">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Featured picks</p>
+              <h2>Top finds this week</h2>
+            </div>
+            <button class="cta-button ghost">View all</button>
+          </div>
+
+          <div id="productGrid" class="product-grid"></div>
+        </section>
+
+        <section id="retailers" class="panel retailer-panel">
+          <div class="section-head narrow">
+            <div>
+              <p class="eyebrow">Trusted partners</p>
+              <h2>Retailers you can trust</h2>
+            </div>
+          </div>
+
+          <div class="retailer-grid">
+            <div class="retailer-badge">NEXUS MART</div>
+            <div class="retailer-badge">VINTAGE VAULT</div>
+            <div class="retailer-badge">PIXEL KIOSK</div>
+            <div class="retailer-badge">CRATE &amp; COSMIC</div>
+            <div class="retailer-badge">SUNSET SUPPLY</div>
+            <div class="retailer-badge">ROCKET BUY</div>
+          </div>
+        </section>
+
+        <section id="how" class="panel how-panel">
+          <div class="section-head narrow">
+            <div>
+              <p class="eyebrow">How it works</p>
+              <h2>Easy, fast, authentic</h2>
+            </div>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-no">01</span>
+              <h3>Search</h3>
+              <p>Browse products by category, style, or retailer with a fast search experience.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-no">02</span>
+              <h3>Compare</h3>
+              <p>Find the same product across multiple stores and compare offers side by side.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-no">03</span>
+              <h3>Buy</h3>
+              <p>Select trusted listings and shop confidently with authentic retailer partners.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>WORLDBUYAMAZING © 2026</p>
+        <p>Curated for a better shopping vibe.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
